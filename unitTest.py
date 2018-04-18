@@ -4,7 +4,7 @@ from firstCode import name
 
 class TestfirstCode(unittest.TestCase):
     def test_name(self):
-        self.assertIsInstance(name('ajay'),str)
+        self.assertIsInstance(name('ajay'),int)
         
         
         
