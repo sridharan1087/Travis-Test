@@ -5,4 +5,4 @@ python:
 install:
   - pip install nltk
   
-script: python unitTest.py
+script: python test.py
