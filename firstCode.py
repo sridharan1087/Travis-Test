@@ -11,10 +11,6 @@ logging.config.dictConfig(config)
 logger = logging.getLogger('unitTest')
 
 
-# def name(firstName):
-#     logging.info('running the firstCode {}'.format(firstName))
-#     return(firstName)
-
 def messageProcessing(message,pattern,stopWords):
     try:
         pmrId = re.search(pattern,message)
@@ -51,17 +47,5 @@ def extractCompanyName(message):
         print('Exception',e)
         return(False)
 
-#             if lst:
-#                 companyName = (" ".join(lst))
-#             else:
-#                 companyName = None
-#             print 'Company name: %s  pmrId: %s' % (companyName,pmrId)
-#             return('{} {}'.format(pmrId,companyName))
-#     except:
-#             print 'Exception: %s' % (traceback.format_exc())
-            
-            
-extractCompanyName('S.I.G Grand Camp-PMR 20963,665,706 Came Today around 2:00pm GMT')        
-#extractCompanyName('62062,999,760 Nippon Information\n64414,672,760 TOYOBO INFORMATION\n62057,999,760 SOSHIN ELECTRIC\n62047,999,760 Nippon Kayaku\n62052,999,760 Noevir\n62048,999,760 Kumi Kasei')
 
     
