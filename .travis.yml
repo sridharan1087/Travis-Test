@@ -4,5 +4,6 @@ python:
   
 install:
   - pip install nltk
+  - pip install yaml
   
-script: python unitTest.py
+script: python test.py

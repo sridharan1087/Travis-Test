@@ -13,11 +13,13 @@ with open('config.yml','rt') as f:
 logging.config.dictConfig(config)
 logger = logging.getLogger('unitTest')
 
+
 cluster = Cluster(['35.200.242.129'])
 session = cluster.connect('incident')
 # def name(firstName):
 #     logging.info('running the firstCode {}'.format(firstName))
 #     return(firstName)
+
 
 def messageProcessing(message,pattern,stopWords):
     try:
@@ -68,6 +70,7 @@ def extractCompanyName(message):
         print('Exception',e)
         return(False)
 
+
 #             if lst:
 #                 companyName = (" ".join(lst))
 #             else:
@@ -80,5 +83,6 @@ def extractCompanyName(message):
             
 #extractCompanyName('S.I.G Grand Camp-PMR 20963,665,706 Came Today around 2:00pm GMT')        
 #extractCompanyName('62062,999,760 Nippon Information\n64414,672,760 TOYOBO INFORMATION\n62057,999,760 SOSHIN ELECTRIC\n62047,999,760 Nippon Kayaku\n62052,999,760 Noevir\n62048,999,760 Kumi Kasei')
+
 
     
