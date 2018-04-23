@@ -43,13 +43,26 @@ class testExctractCompany(unittest.TestCase):
             
             
     def test02ExtractCompanyNameMultiline(self):
-        try:
-            msg = '62062,999,760 Nippon Information\n64414,672,760 TOYOBO INFORMATION\n62057,999,760 SOSHIN ELECTRIC\n62047,999,760 Nippon Kayaku\n62052,999,760 Noevir\n62048,999,760 Kumi Kasei'
-            expectedVal = msg
-            extractCompanyName(msg)
-            self.assertTrue(True)
-        except:
-            self.assertFalse(False)
+      
+            messages = ['20963,669,706 - S.I.G Grand Camp']
+            messages.append('62140,999,760 Intage - customer id - 100252163')
+            messages.append('22970,000,778-IOI ACidchem sdn BHD reported the same PMR')
+            messages.append('We just received sev1 PMR # 88580,000,834 -J&J with same issue')
+            messages.append('76289,632,760 Sanai Oil\n62062,999,760 Nippon Information\n64414,672,760 TOYOBO INFORMATION\n62057,999,760 SOSHIN ELECTRIC\n62047,999,760 Nippon Kayaku\n62052,999,760 Noevir\n62048,999,760 Kumi Kasei\n')
+            messages.append('76289,632,760\n62062,999,760\n62053,999,760')
+            messages.append('33217,999,618 - Pitagora Informationsmanagem\n90944,060,618 - Richter Pharma\n41087,082,000 - IBM CIO')
+            messages.append('PMR 22005,001,806 Moderne Byggfornyelse AS\nPMR 22006,001,806 Inforte A/S')
+            messages.append('new PMR actually, PMR 22009,001,806 - Fjord1 AS')
+            messages.append('GESTIMAT (Dehon)-PMR 66594,661,706 Came on 2/28/18 5:20 PM GMT\nNovaliance -PMR 62742,661,706 Came on 2/28/18 4:00 PM GMT\nS.I.G Grand Camp-PMR 20963,669,706 Came Today around 2:00pm GMT')
+            messages.append('')
+            for message in messages:
+                try:
+                    extractCompanyName(message)
+                    self.assertTrue(True)
+                except:
+                    logger.error('Exception while adding in to the db {}'.format(message))
+                    self.assertFalse(False)
+        
             
     
             

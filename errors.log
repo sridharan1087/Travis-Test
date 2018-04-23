@@ -18,3 +18,436 @@ Traceback (most recent call last):
 AssertionError: True != '20963,669,706 S.I.G Grand Camp'
 2018-04-20 01:05:39,793 - unitTest - ERROR - Cannot Extract PMR ID
 None
+2018-04-23 14:44:14,191 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,a.values())
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 14:44:14,193 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,a.values())
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 14:44:14,195 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,a.values())
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 14:44:14,196 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,a.values())
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 14:44:14,197 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,a.values())
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 14:44:14,198 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,a.values())
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 14:47:08,618 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 14:47:08,620 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 14:47:08,621 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 14:47:08,622 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 14:47:08,623 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 14:47:08,624 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 14:51:03,111 - cassandra.cluster - ERROR - Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1270, in cassandra.cluster.Cluster.connect
+    self.control_connection.connect()
+  File "cassandra/cluster.py", line 2766, in cassandra.cluster.ControlConnection.connect
+    self._set_new_connection(self._reconnect_internal())
+  File "cassandra/cluster.py", line 2809, in cassandra.cluster.ControlConnection._reconnect_internal
+    raise NoHostAvailable("Unable to connect to any servers", errors)
+NoHostAvailable: ('Unable to connect to any servers', {'35.200.242.129': error(51, "Tried connecting to [('35.200.242.129', 9042)]. Last error: Network is unreachable")})
+2018-04-23 14:51:29,430 - cassandra.cluster - ERROR - Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1270, in cassandra.cluster.Cluster.connect
+    self.control_connection.connect()
+  File "cassandra/cluster.py", line 2766, in cassandra.cluster.ControlConnection.connect
+    self._set_new_connection(self._reconnect_internal())
+  File "cassandra/cluster.py", line 2809, in cassandra.cluster.ControlConnection._reconnect_internal
+    raise NoHostAvailable("Unable to connect to any servers", errors)
+NoHostAvailable: ('Unable to connect to any servers', {'35.200.242.129': error(51, "Tried connecting to [('35.200.242.129', 9042)]. Last error: Network is unreachable")})
+2018-04-23 15:01:01,681 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 15:01:01,683 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 15:01:01,684 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 15:01:01,685 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 15:01:01,687 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 15:01:01,688 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 15:01:34,017 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['PmrId'],a['companyName'],a['createdBy'],a['time']))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:01:34,020 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['PmrId'],a['companyName'],a['createdBy'],a['time']))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:01:34,021 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['PmrId'],a['companyName'],a['createdBy'],a['time']))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:01:34,022 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['PmrId'],a['companyName'],a['createdBy'],a['time']))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:01:34,024 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['PmrId'],a['companyName'],a['createdBy'],a['time']))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:01:34,025 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['PmrId'],a['companyName'],a['createdBy'],a['time']))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:04:43,527 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),a['PmrId'],a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:04:43,529 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),a['PmrId'],a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:04:43,531 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),a['PmrId'],a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:04:43,532 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),a['PmrId'],a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:04:43,533 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),a['PmrId'],a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:04:43,534 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),a['PmrId'],a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:07:09,370 - cassandra.cluster - ERROR - Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1270, in cassandra.cluster.Cluster.connect
+    self.control_connection.connect()
+  File "cassandra/cluster.py", line 2766, in cassandra.cluster.ControlConnection.connect
+    self._set_new_connection(self._reconnect_internal())
+  File "cassandra/cluster.py", line 2809, in cassandra.cluster.ControlConnection._reconnect_internal
+    raise NoHostAvailable("Unable to connect to any servers", errors)
+NoHostAvailable: ('Unable to connect to any servers', {'35.200.242.129': OperationTimedOut('errors=None, last_host=None',)})
+2018-04-23 15:07:55,988 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:07:55,990 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:07:55,991 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:07:55,992 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:07:55,993 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:07:55,995 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:08,533 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:08,535 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:08,536 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:08,538 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:08,539 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:08,540 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:43,210 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:43,212 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:43,214 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:43,215 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:43,216 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:43,217 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:13:10,207 - cassandra.cluster - ERROR - Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1270, in cassandra.cluster.Cluster.connect
+    self.control_connection.connect()
+  File "cassandra/cluster.py", line 2766, in cassandra.cluster.ControlConnection.connect
+    self._set_new_connection(self._reconnect_internal())
+  File "cassandra/cluster.py", line 2809, in cassandra.cluster.ControlConnection._reconnect_internal
+    raise NoHostAvailable("Unable to connect to any servers", errors)
+NoHostAvailable: ('Unable to connect to any servers', {'35.200.242.129': OperationTimedOut('errors=None, last_host=None',)})
+2018-04-23 15:56:27,936 - cassandra.cluster - ERROR - Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1270, in cassandra.cluster.Cluster.connect
+    self.control_connection.connect()
+  File "cassandra/cluster.py", line 2766, in cassandra.cluster.ControlConnection.connect
+    self._set_new_connection(self._reconnect_internal())
+  File "cassandra/cluster.py", line 2809, in cassandra.cluster.ControlConnection._reconnect_internal
+    raise NoHostAvailable("Unable to connect to any servers", errors)
+NoHostAvailable: ('Unable to connect to any servers', {'35.200.242.129': OperationTimedOut('errors=None, last_host=None',)})
+2018-04-23 16:00:44,706 - unitTest - ERROR - Cannot Extract PMR ID
+None
+2018-04-23 16:02:59,029 - unitTest - ERROR - Cannot Extract PMR ID
+None

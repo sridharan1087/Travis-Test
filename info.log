@@ -547,3 +547,891 @@ AssertionError: True != '20963,669,706 S.I.G Grand Camp'
 2018-04-20 01:05:39,793 - unitTest - ERROR - Cannot Extract PMR ID
 None
 2018-04-20 01:07:01,266 - unitTest - INFO - Extracting company name from messages
+2018-04-20 01:29:04,111 - unitTest - INFO - Extracting company name from messages
+2018-04-20 01:29:04,641 - unitTest - INFO - companyName S.I.G Grand Camp-PMR
+2018-04-20 01:29:13,945 - unitTest - INFO - Extracting company name from messages
+2018-04-20 01:29:14,415 - unitTest - INFO - companyName Nippon
+2018-04-20 01:29:14,416 - unitTest - INFO - companyName TOYOBO INFORMATION
+2018-04-20 01:29:14,417 - unitTest - INFO - companyName SOSHIN ELECTRIC
+2018-04-20 01:29:14,418 - unitTest - INFO - companyName Nippon Kayaku
+2018-04-20 01:29:14,419 - unitTest - INFO - companyName Noevir
+2018-04-20 01:29:14,419 - unitTest - INFO - companyName Kumi Kasei
+2018-04-20 01:32:33,778 - unitTest - INFO - Extracting company name from messages
+2018-04-20 01:32:52,349 - unitTest - INFO - Extracting company name from messages
+2018-04-20 01:32:52,822 - unitTest - INFO - companyName Nippon
+2018-04-20 01:32:52,823 - unitTest - INFO - companyName TOYOBO INFORMATION
+2018-04-20 01:32:52,824 - unitTest - INFO - companyName SOSHIN ELECTRIC
+2018-04-20 01:32:52,825 - unitTest - INFO - companyName Nippon Kayaku
+2018-04-20 01:32:52,826 - unitTest - INFO - companyName Noevir
+2018-04-20 01:32:52,826 - unitTest - INFO - companyName Kumi Kasei
+2018-04-20 01:36:01,185 - unitTest - INFO - Extracting company name from messages
+2018-04-20 01:36:01,675 - unitTest - INFO - Company Name and Pmr Id {'PmrId': <_sre.SRE_Match object at 0x10570b850>, 'companyName': 'Nippon'}
+2018-04-20 01:36:01,676 - unitTest - INFO - Company Name and Pmr Id {'PmrId': <_sre.SRE_Match object at 0x10570b780>, 'companyName': 'TOYOBO INFORMATION'}
+2018-04-20 01:36:01,676 - unitTest - INFO - Company Name and Pmr Id {'PmrId': <_sre.SRE_Match object at 0x10570b850>, 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-20 01:36:01,677 - unitTest - INFO - Company Name and Pmr Id {'PmrId': <_sre.SRE_Match object at 0x10570b780>, 'companyName': 'Nippon Kayaku'}
+2018-04-20 01:36:01,678 - unitTest - INFO - Company Name and Pmr Id {'PmrId': <_sre.SRE_Match object at 0x10570b850>, 'companyName': 'Noevir'}
+2018-04-20 01:36:01,678 - unitTest - INFO - Company Name and Pmr Id {'PmrId': <_sre.SRE_Match object at 0x10570b780>, 'companyName': 'Kumi Kasei'}
+2018-04-20 01:37:18,842 - unitTest - INFO - Extracting company name from messages
+2018-04-20 01:37:19,322 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62062,999,760', 'companyName': 'Nippon'}
+2018-04-20 01:37:19,323 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '64414,672,760', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-20 01:37:19,324 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62057,999,760', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-20 01:37:19,325 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62047,999,760', 'companyName': 'Nippon Kayaku'}
+2018-04-20 01:37:19,326 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62052,999,760', 'companyName': 'Noevir'}
+2018-04-20 01:37:19,326 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62048,999,760', 'companyName': 'Kumi Kasei'}
+2018-04-23 11:25:45,136 - unitTest - INFO - Extracting company name from messages
+2018-04-23 11:25:45,621 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62062,999,760', 'companyName': 'Nippon'}
+2018-04-23 11:25:45,623 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '64414,672,760', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 11:25:45,623 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62057,999,760', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 11:25:45,624 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62047,999,760', 'companyName': 'Nippon Kayaku'}
+2018-04-23 11:25:45,625 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62052,999,760', 'companyName': 'Noevir'}
+2018-04-23 11:25:45,626 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62048,999,760', 'companyName': 'Kumi Kasei'}
+2018-04-23 11:26:05,262 - unitTest - INFO - Extracting company name from messages
+2018-04-23 11:26:05,705 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62062,999,760', 'companyName': 'Nippon'}
+2018-04-23 11:26:05,706 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '64414,672,760', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 11:26:05,707 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62057,999,760', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 11:26:05,708 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62047,999,760', 'companyName': 'Nippon Kayaku'}
+2018-04-23 11:26:05,708 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62052,999,760', 'companyName': 'Noevir'}
+2018-04-23 11:26:05,709 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62048,999,760', 'companyName': 'Kumi Kasei'}
+2018-04-23 11:26:05,718 - unitTest - INFO - Extracting company name from messages
+2018-04-23 11:26:05,719 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62062,999,760', 'companyName': 'Nippon'}
+2018-04-23 11:26:05,720 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '64414,672,760', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 11:26:05,721 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62057,999,760', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 11:26:05,722 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62047,999,760', 'companyName': 'Nippon Kayaku'}
+2018-04-23 11:26:05,722 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62052,999,760', 'companyName': 'Noevir'}
+2018-04-23 11:26:05,723 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62048,999,760', 'companyName': 'Kumi Kasei'}
+2018-04-23 11:55:04,819 - unitTest - INFO - Extracting company name from messages
+2018-04-23 11:55:05,297 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62062,999,760', 'companyName': 'Nippon'}
+2018-04-23 11:55:05,298 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '64414,672,760', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 11:55:05,299 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62057,999,760', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 11:55:05,300 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62047,999,760', 'companyName': 'Nippon Kayaku'}
+2018-04-23 11:55:05,301 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62052,999,760', 'companyName': 'Noevir'}
+2018-04-23 11:55:05,302 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62048,999,760', 'companyName': 'Kumi Kasei'}
+2018-04-23 12:28:52,125 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 12:28:52,551 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 12:28:53,424 - unitTest - INFO - Extracting company name from messages
+2018-04-23 12:28:53,912 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62062,999,760', 'companyName': 'Nippon'}
+2018-04-23 12:28:53,914 - root - INFO - Added in to batch INSERT
+2018-04-23 12:28:53,915 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '64414,672,760', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 12:28:53,915 - root - INFO - Added in to batch INSERT
+2018-04-23 12:28:53,916 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62057,999,760', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 12:28:53,916 - root - INFO - Added in to batch INSERT
+2018-04-23 12:28:53,916 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62047,999,760', 'companyName': 'Nippon Kayaku'}
+2018-04-23 12:28:53,917 - root - INFO - Added in to batch INSERT
+2018-04-23 12:28:53,917 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62052,999,760', 'companyName': 'Noevir'}
+2018-04-23 12:28:53,918 - root - INFO - Added in to batch INSERT
+2018-04-23 12:28:53,918 - unitTest - INFO - Company Name and Pmr Id {'PmrId': '62048,999,760', 'companyName': 'Kumi Kasei'}
+2018-04-23 12:28:53,918 - root - INFO - Added in to batch INSERT
+2018-04-23 13:37:12,833 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 13:37:13,327 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 13:37:14,131 - unitTest - INFO - Extracting company name from messages
+2018-04-23 13:37:14,611 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 147092, 'PmrId': '62062,999,760', 'createdBy': 'Ajay', 'companyName': 'Nippon'}
+2018-04-23 13:37:14,611 - root - INFO - Added in to batch INSERT
+2018-04-23 13:37:14,612 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 184147, 'PmrId': '64414,672,760', 'createdBy': 'Ajay', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 13:37:14,613 - root - INFO - Added in to batch INSERT
+2018-04-23 13:37:14,613 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 111611, 'PmrId': '62057,999,760', 'createdBy': 'Ajay', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 13:37:14,613 - root - INFO - Added in to batch INSERT
+2018-04-23 13:37:14,614 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 102425, 'PmrId': '62047,999,760', 'createdBy': 'Ajay', 'companyName': 'Nippon Kayaku'}
+2018-04-23 13:37:14,614 - root - INFO - Added in to batch INSERT
+2018-04-23 13:37:14,615 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 116125, 'PmrId': '62052,999,760', 'createdBy': 'Ajay', 'companyName': 'Noevir'}
+2018-04-23 13:37:14,615 - root - INFO - Added in to batch INSERT
+2018-04-23 13:37:14,616 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 179043, 'PmrId': '62048,999,760', 'createdBy': 'Ajay', 'companyName': 'Kumi Kasei'}
+2018-04-23 13:37:14,616 - root - INFO - Added in to batch INSERT
+2018-04-23 14:43:44,900 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 14:43:45,330 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 14:43:46,183 - unitTest - INFO - Extracting company name from messages
+2018-04-23 14:43:46,699 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 188985, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon'}
+2018-04-23 14:43:46,700 - root - INFO - Added in to batch INSERT
+2018-04-23 14:43:46,701 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 113782, 'PmrId': '64414,672,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 14:43:46,701 - root - INFO - Added in to batch INSERT
+2018-04-23 14:43:46,702 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 166750, 'PmrId': '62057,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 14:43:46,702 - root - INFO - Added in to batch INSERT
+2018-04-23 14:43:46,703 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 124280, 'PmrId': '62047,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon Kayaku'}
+2018-04-23 14:43:46,703 - root - INFO - Added in to batch INSERT
+2018-04-23 14:43:46,703 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 183407, 'PmrId': '62052,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Noevir'}
+2018-04-23 14:43:46,704 - root - INFO - Added in to batch INSERT
+2018-04-23 14:43:46,705 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 195267, 'PmrId': '62048,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Kumi Kasei'}
+2018-04-23 14:43:46,705 - root - INFO - Added in to batch INSERT
+2018-04-23 14:44:12,295 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 14:44:12,741 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 14:44:13,715 - unitTest - INFO - Extracting company name from messages
+2018-04-23 14:44:14,189 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 145342, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon'}
+2018-04-23 14:44:14,191 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,a.values())
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 14:44:14,193 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 159318, 'PmrId': '64414,672,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 14:44:14,193 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,a.values())
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 14:44:14,195 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 124186, 'PmrId': '62057,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 14:44:14,195 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,a.values())
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 14:44:14,196 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 181846, 'PmrId': '62047,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon Kayaku'}
+2018-04-23 14:44:14,196 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,a.values())
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 14:44:14,197 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 106384, 'PmrId': '62052,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Noevir'}
+2018-04-23 14:44:14,197 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,a.values())
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 14:44:14,198 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 179080, 'PmrId': '62048,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Kumi Kasei'}
+2018-04-23 14:44:14,198 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,a.values())
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 14:47:06,865 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 14:47:07,298 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 14:47:08,134 - unitTest - INFO - Extracting company name from messages
+2018-04-23 14:47:08,618 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 165045, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon'}
+2018-04-23 14:47:08,618 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 14:47:08,620 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 132916, 'PmrId': '64414,672,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 14:47:08,620 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 14:47:08,621 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 112890, 'PmrId': '62057,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 14:47:08,621 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 14:47:08,622 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 128908, 'PmrId': '62047,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon Kayaku'}
+2018-04-23 14:47:08,622 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 14:47:08,623 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 158393, 'PmrId': '62052,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Noevir'}
+2018-04-23 14:47:08,623 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 14:47:08,624 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 179558, 'PmrId': '62048,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Kumi Kasei'}
+2018-04-23 14:47:08,624 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 14:51:03,106 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 14:51:03,108 - cassandra.cluster - WARNING - [control connection] Error connecting to 35.200.242.129:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 2798, in cassandra.cluster.ControlConnection._reconnect_internal
+    return self._try_connect(host)
+  File "cassandra/cluster.py", line 2820, in cassandra.cluster.ControlConnection._try_connect
+    connection = self._cluster.connection_factory(host.address, is_control_connection=True)
+  File "cassandra/cluster.py", line 1205, in cassandra.cluster.Cluster.connection_factory
+    return self.connection_class.factory(address, self.connect_timeout, *args, **kwargs)
+  File "cassandra/connection.py", line 332, in cassandra.connection.Connection.factory
+    conn = cls(host, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/cassandra/io/asyncorereactor.py", line 344, in __init__
+    self._connect_socket()
+  File "cassandra/connection.py", line 371, in cassandra.connection.Connection._connect_socket
+    raise socket.error(sockerr.errno, "Tried connecting to %s. Last error: %s" % ([a[4] for a in addresses], sockerr.strerror or sockerr))
+error: [Errno 51] Tried connecting to [('35.200.242.129', 9042)]. Last error: Network is unreachable
+2018-04-23 14:51:03,111 - cassandra.cluster - ERROR - Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1270, in cassandra.cluster.Cluster.connect
+    self.control_connection.connect()
+  File "cassandra/cluster.py", line 2766, in cassandra.cluster.ControlConnection.connect
+    self._set_new_connection(self._reconnect_internal())
+  File "cassandra/cluster.py", line 2809, in cassandra.cluster.ControlConnection._reconnect_internal
+    raise NoHostAvailable("Unable to connect to any servers", errors)
+NoHostAvailable: ('Unable to connect to any servers', {'35.200.242.129': error(51, "Tried connecting to [('35.200.242.129', 9042)]. Last error: Network is unreachable")})
+2018-04-23 14:51:29,427 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 14:51:29,429 - cassandra.cluster - WARNING - [control connection] Error connecting to 35.200.242.129:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 2798, in cassandra.cluster.ControlConnection._reconnect_internal
+    return self._try_connect(host)
+  File "cassandra/cluster.py", line 2820, in cassandra.cluster.ControlConnection._try_connect
+    connection = self._cluster.connection_factory(host.address, is_control_connection=True)
+  File "cassandra/cluster.py", line 1205, in cassandra.cluster.Cluster.connection_factory
+    return self.connection_class.factory(address, self.connect_timeout, *args, **kwargs)
+  File "cassandra/connection.py", line 332, in cassandra.connection.Connection.factory
+    conn = cls(host, *args, **kwargs)
+  File "/Library/Python/2.7/site-packages/cassandra/io/asyncorereactor.py", line 344, in __init__
+    self._connect_socket()
+  File "cassandra/connection.py", line 371, in cassandra.connection.Connection._connect_socket
+    raise socket.error(sockerr.errno, "Tried connecting to %s. Last error: %s" % ([a[4] for a in addresses], sockerr.strerror or sockerr))
+error: [Errno 51] Tried connecting to [('35.200.242.129', 9042)]. Last error: Network is unreachable
+2018-04-23 14:51:29,430 - cassandra.cluster - ERROR - Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1270, in cassandra.cluster.Cluster.connect
+    self.control_connection.connect()
+  File "cassandra/cluster.py", line 2766, in cassandra.cluster.ControlConnection.connect
+    self._set_new_connection(self._reconnect_internal())
+  File "cassandra/cluster.py", line 2809, in cassandra.cluster.ControlConnection._reconnect_internal
+    raise NoHostAvailable("Unable to connect to any servers", errors)
+NoHostAvailable: ('Unable to connect to any servers', {'35.200.242.129': error(51, "Tried connecting to [('35.200.242.129', 9042)]. Last error: Network is unreachable")})
+2018-04-23 15:00:59,062 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 15:00:59,737 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 15:01:01,196 - unitTest - INFO - Extracting company name from messages
+2018-04-23 15:01:01,680 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 144113, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon'}
+2018-04-23 15:01:01,681 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 15:01:01,683 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 163296, 'PmrId': '64414,672,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 15:01:01,683 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 15:01:01,684 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 162919, 'PmrId': '62057,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 15:01:01,684 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 15:01:01,685 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 100666, 'PmrId': '62047,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon Kayaku'}
+2018-04-23 15:01:01,685 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 15:01:01,686 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 106757, 'PmrId': '62052,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Noevir'}
+2018-04-23 15:01:01,687 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 15:01:01,687 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 188912, 'PmrId': '62048,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Kumi Kasei'}
+2018-04-23 15:01:01,688 - unitTest - ERROR - 'pmrId'
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['pmrId'],a['companyName'],a['createdBy'],a['time']))
+KeyError: 'pmrId'
+2018-04-23 15:01:30,886 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 15:01:31,575 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 15:01:33,547 - unitTest - INFO - Extracting company name from messages
+2018-04-23 15:01:34,016 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 101538, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon'}
+2018-04-23 15:01:34,017 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['PmrId'],a['companyName'],a['createdBy'],a['time']))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:01:34,019 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 107707, 'PmrId': '64414,672,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 15:01:34,020 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['PmrId'],a['companyName'],a['createdBy'],a['time']))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:01:34,021 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 192482, 'PmrId': '62057,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 15:01:34,021 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['PmrId'],a['companyName'],a['createdBy'],a['time']))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:01:34,022 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 198090, 'PmrId': '62047,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon Kayaku'}
+2018-04-23 15:01:34,022 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['PmrId'],a['companyName'],a['createdBy'],a['time']))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:01:34,023 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 140460, 'PmrId': '62052,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Noevir'}
+2018-04-23 15:01:34,024 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['PmrId'],a['companyName'],a['createdBy'],a['time']))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:01:34,025 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 104154, 'PmrId': '62048,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Kumi Kasei'}
+2018-04-23 15:01:34,025 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(a['incidentId'],a['PmrId'],a['companyName'],a['createdBy'],a['time']))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:04:40,558 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 15:04:41,179 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 15:04:43,057 - unitTest - INFO - Extracting company name from messages
+2018-04-23 15:04:43,527 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 198106, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon'}
+2018-04-23 15:04:43,527 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),a['PmrId'],a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:04:43,529 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 190910, 'PmrId': '64414,672,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 15:04:43,529 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),a['PmrId'],a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:04:43,530 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 102918, 'PmrId': '62057,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 15:04:43,531 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),a['PmrId'],a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:04:43,532 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 134692, 'PmrId': '62047,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon Kayaku'}
+2018-04-23 15:04:43,532 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),a['PmrId'],a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:04:43,533 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 132563, 'PmrId': '62052,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Noevir'}
+2018-04-23 15:04:43,533 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),a['PmrId'],a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:04:43,534 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 121477, 'PmrId': '62048,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Kumi Kasei'}
+2018-04-23 15:04:43,534 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),a['PmrId'],a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:07:06,736 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 15:07:07,359 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 15:07:09,364 - cassandra.cluster - WARNING - [control connection] Error connecting to 35.200.242.129:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 2798, in cassandra.cluster.ControlConnection._reconnect_internal
+    return self._try_connect(host)
+  File "cassandra/cluster.py", line 2855, in cassandra.cluster.ControlConnection._try_connect
+    raise
+  File "cassandra/cluster.py", line 2852, in cassandra.cluster.ControlConnection._try_connect
+    self._refresh_schema(connection, preloaded_results=shared_results, schema_agreement_wait=-1)
+  File "cassandra/cluster.py", line 2954, in cassandra.cluster.ControlConnection._refresh_schema
+    self._cluster.metadata.refresh(connection, self._timeout, **kwargs)
+  File "cassandra/metadata.py", line 126, in cassandra.metadata.Metadata.refresh
+    self._rebuild_all(parser)
+  File "cassandra/metadata.py", line 149, in cassandra.metadata.Metadata._rebuild_all
+    for keyspace_meta in parser.get_all_keyspaces():
+  File "cassandra/metadata.py", line 2190, in get_all_keyspaces
+    for keyspace_meta in super(SchemaParserV3, self).get_all_keyspaces():
+  File "cassandra/metadata.py", line 1711, in get_all_keyspaces
+    self._query_all()
+  File "cassandra/metadata.py", line 2371, in cassandra.metadata.SchemaParserV3._query_all
+    responses = self.connection.wait_for_responses(*queries, timeout=self.timeout, fail_on_error=False)
+  File "cassandra/connection.py", line 519, in cassandra.connection.Connection.wait_for_responses
+    raise
+  File "cassandra/connection.py", line 517, in cassandra.connection.Connection.wait_for_responses
+    return waiter.deliver(timeout)
+  File "cassandra/connection.py", line 938, in cassandra.connection.ResponseWaiter.deliver
+    raise OperationTimedOut()
+OperationTimedOut: errors=None, last_host=None
+2018-04-23 15:07:09,370 - cassandra.cluster - ERROR - Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1270, in cassandra.cluster.Cluster.connect
+    self.control_connection.connect()
+  File "cassandra/cluster.py", line 2766, in cassandra.cluster.ControlConnection.connect
+    self._set_new_connection(self._reconnect_internal())
+  File "cassandra/cluster.py", line 2809, in cassandra.cluster.ControlConnection._reconnect_internal
+    raise NoHostAvailable("Unable to connect to any servers", errors)
+NoHostAvailable: ('Unable to connect to any servers', {'35.200.242.129': OperationTimedOut('errors=None, last_host=None',)})
+2018-04-23 15:07:53,373 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 15:07:53,988 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 15:07:55,516 - unitTest - INFO - Extracting company name from messages
+2018-04-23 15:07:55,988 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 169158, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon'}
+2018-04-23 15:07:55,988 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:07:55,990 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 101424, 'PmrId': '64414,672,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 15:07:55,990 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:07:55,991 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 133933, 'PmrId': '62057,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 15:07:55,991 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:07:55,992 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 162359, 'PmrId': '62047,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon Kayaku'}
+2018-04-23 15:07:55,992 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:07:55,993 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 136088, 'PmrId': '62052,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Noevir'}
+2018-04-23 15:07:55,993 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:07:55,994 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 169758, 'PmrId': '62048,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Kumi Kasei'}
+2018-04-23 15:07:55,995 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:05,528 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 15:09:06,030 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 15:09:08,063 - unitTest - INFO - Extracting company name from messages
+2018-04-23 15:09:08,533 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 102998, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon'}
+2018-04-23 15:09:08,533 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:08,535 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 127545, 'PmrId': '64414,672,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 15:09:08,535 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:08,536 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 144373, 'PmrId': '62057,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 15:09:08,536 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:08,537 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 114176, 'PmrId': '62047,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon Kayaku'}
+2018-04-23 15:09:08,538 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:08,539 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 121987, 'PmrId': '62052,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Noevir'}
+2018-04-23 15:09:08,539 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:08,540 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 130005, 'PmrId': '62048,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Kumi Kasei'}
+2018-04-23 15:09:08,540 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:39,778 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 15:09:40,238 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 15:09:42,735 - unitTest - INFO - Extracting company name from messages
+2018-04-23 15:09:43,210 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 125332, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon'}
+2018-04-23 15:09:43,210 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:43,212 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 187353, 'PmrId': '64414,672,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 15:09:43,212 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:43,214 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 168719, 'PmrId': '62057,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 15:09:43,214 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:43,215 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 141146, 'PmrId': '62047,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon Kayaku'}
+2018-04-23 15:09:43,215 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:43,216 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 145393, 'PmrId': '62052,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Noevir'}
+2018-04-23 15:09:43,216 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:09:43,217 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 194212, 'PmrId': '62048,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Kumi Kasei'}
+2018-04-23 15:09:43,217 - unitTest - ERROR - not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/Users/srivasan/privateRepo/Travis-TestProject/firstCode.py", line 58, in extractCompanyName
+    batch.add(insertPmrAndCompanyCql,(str(a['incidentId']),str(a['PmrId']),a['companyName'],a['createdBy'],str(a['time'])))
+  File "cassandra/query.py", line 763, in cassandra.query.BatchStatement.add
+    statement = bind_params(statement, parameters, encoder)
+  File "cassandra/query.py", line 849, in cassandra.query.bind_params
+    return query % tuple(encoder.cql_encode_all_types(v) for v in params)
+TypeError: not all arguments converted during string formatting
+2018-04-23 15:13:06,954 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 15:13:08,193 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 15:13:10,200 - cassandra.cluster - WARNING - [control connection] Error connecting to 35.200.242.129:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 2798, in cassandra.cluster.ControlConnection._reconnect_internal
+    return self._try_connect(host)
+  File "cassandra/cluster.py", line 2855, in cassandra.cluster.ControlConnection._try_connect
+    raise
+  File "cassandra/cluster.py", line 2852, in cassandra.cluster.ControlConnection._try_connect
+    self._refresh_schema(connection, preloaded_results=shared_results, schema_agreement_wait=-1)
+  File "cassandra/cluster.py", line 2954, in cassandra.cluster.ControlConnection._refresh_schema
+    self._cluster.metadata.refresh(connection, self._timeout, **kwargs)
+  File "cassandra/metadata.py", line 126, in cassandra.metadata.Metadata.refresh
+    self._rebuild_all(parser)
+  File "cassandra/metadata.py", line 149, in cassandra.metadata.Metadata._rebuild_all
+    for keyspace_meta in parser.get_all_keyspaces():
+  File "cassandra/metadata.py", line 2190, in get_all_keyspaces
+    for keyspace_meta in super(SchemaParserV3, self).get_all_keyspaces():
+  File "cassandra/metadata.py", line 1711, in get_all_keyspaces
+    self._query_all()
+  File "cassandra/metadata.py", line 2371, in cassandra.metadata.SchemaParserV3._query_all
+    responses = self.connection.wait_for_responses(*queries, timeout=self.timeout, fail_on_error=False)
+  File "cassandra/connection.py", line 519, in cassandra.connection.Connection.wait_for_responses
+    raise
+  File "cassandra/connection.py", line 517, in cassandra.connection.Connection.wait_for_responses
+    return waiter.deliver(timeout)
+  File "cassandra/connection.py", line 938, in cassandra.connection.ResponseWaiter.deliver
+    raise OperationTimedOut()
+OperationTimedOut: errors=None, last_host=None
+2018-04-23 15:13:10,207 - cassandra.cluster - ERROR - Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1270, in cassandra.cluster.Cluster.connect
+    self.control_connection.connect()
+  File "cassandra/cluster.py", line 2766, in cassandra.cluster.ControlConnection.connect
+    self._set_new_connection(self._reconnect_internal())
+  File "cassandra/cluster.py", line 2809, in cassandra.cluster.ControlConnection._reconnect_internal
+    raise NoHostAvailable("Unable to connect to any servers", errors)
+NoHostAvailable: ('Unable to connect to any servers', {'35.200.242.129': OperationTimedOut('errors=None, last_host=None',)})
+2018-04-23 15:13:21,169 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 15:13:22,049 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 15:13:23,375 - unitTest - INFO - Extracting company name from messages
+2018-04-23 15:13:23,976 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 190045, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon'}
+2018-04-23 15:13:23,978 - root - INFO - Added in to batch INSERT
+2018-04-23 15:13:23,979 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 141010, 'PmrId': '64414,672,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 15:13:23,980 - root - INFO - Added in to batch INSERT
+2018-04-23 15:13:23,981 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 188118, 'PmrId': '62057,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 15:13:23,981 - root - INFO - Added in to batch INSERT
+2018-04-23 15:13:23,982 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 161173, 'PmrId': '62047,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon Kayaku'}
+2018-04-23 15:13:23,982 - root - INFO - Added in to batch INSERT
+2018-04-23 15:13:23,983 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 158192, 'PmrId': '62052,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Noevir'}
+2018-04-23 15:13:23,983 - root - INFO - Added in to batch INSERT
+2018-04-23 15:13:23,983 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 133839, 'PmrId': '62048,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Kumi Kasei'}
+2018-04-23 15:13:23,984 - root - INFO - Added in to batch INSERT
+2018-04-23 15:17:17,253 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 15:17:17,798 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 15:17:19,892 - unitTest - INFO - Extracting company name from messages
+2018-04-23 15:17:20,426 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 162141, 'PmrId': '20963,665,706', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'S.I.G Grand Camp-PMR'}
+2018-04-23 15:17:20,426 - root - INFO - Added in to batch INSERT
+2018-04-23 15:54:23,039 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 15:54:23,645 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 15:56:23,855 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 15:56:25,924 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 15:56:27,929 - cassandra.cluster - WARNING - [control connection] Error connecting to 35.200.242.129:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 2798, in cassandra.cluster.ControlConnection._reconnect_internal
+    return self._try_connect(host)
+  File "cassandra/cluster.py", line 2855, in cassandra.cluster.ControlConnection._try_connect
+    raise
+  File "cassandra/cluster.py", line 2852, in cassandra.cluster.ControlConnection._try_connect
+    self._refresh_schema(connection, preloaded_results=shared_results, schema_agreement_wait=-1)
+  File "cassandra/cluster.py", line 2954, in cassandra.cluster.ControlConnection._refresh_schema
+    self._cluster.metadata.refresh(connection, self._timeout, **kwargs)
+  File "cassandra/metadata.py", line 126, in cassandra.metadata.Metadata.refresh
+    self._rebuild_all(parser)
+  File "cassandra/metadata.py", line 149, in cassandra.metadata.Metadata._rebuild_all
+    for keyspace_meta in parser.get_all_keyspaces():
+  File "cassandra/metadata.py", line 2190, in get_all_keyspaces
+    for keyspace_meta in super(SchemaParserV3, self).get_all_keyspaces():
+  File "cassandra/metadata.py", line 1711, in get_all_keyspaces
+    self._query_all()
+  File "cassandra/metadata.py", line 2371, in cassandra.metadata.SchemaParserV3._query_all
+    responses = self.connection.wait_for_responses(*queries, timeout=self.timeout, fail_on_error=False)
+  File "cassandra/connection.py", line 519, in cassandra.connection.Connection.wait_for_responses
+    raise
+  File "cassandra/connection.py", line 517, in cassandra.connection.Connection.wait_for_responses
+    return waiter.deliver(timeout)
+  File "cassandra/connection.py", line 938, in cassandra.connection.ResponseWaiter.deliver
+    raise OperationTimedOut()
+OperationTimedOut: errors=None, last_host=None
+2018-04-23 15:56:27,936 - cassandra.cluster - ERROR - Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1270, in cassandra.cluster.Cluster.connect
+    self.control_connection.connect()
+  File "cassandra/cluster.py", line 2766, in cassandra.cluster.ControlConnection.connect
+    self._set_new_connection(self._reconnect_internal())
+  File "cassandra/cluster.py", line 2809, in cassandra.cluster.ControlConnection._reconnect_internal
+    raise NoHostAvailable("Unable to connect to any servers", errors)
+NoHostAvailable: ('Unable to connect to any servers', {'35.200.242.129': OperationTimedOut('errors=None, last_host=None',)})
+2018-04-23 15:56:46,253 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 15:56:46,889 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 15:58:41,749 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 15:58:42,210 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 15:58:43,086 - unitTest - INFO - Extracting company name from messages
+2018-04-23 15:58:43,608 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 134261, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon'}
+2018-04-23 15:58:43,608 - root - INFO - Added in to batch INSERT
+2018-04-23 15:58:43,609 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 167273, 'PmrId': '64414,672,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 15:58:43,609 - root - INFO - Added in to batch INSERT
+2018-04-23 15:58:43,610 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 187909, 'PmrId': '62057,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 15:58:43,610 - root - INFO - Added in to batch INSERT
+2018-04-23 15:58:43,611 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 193519, 'PmrId': '62047,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon Kayaku'}
+2018-04-23 15:58:43,611 - root - INFO - Added in to batch INSERT
+2018-04-23 15:58:43,612 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 173278, 'PmrId': '62052,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Noevir'}
+2018-04-23 15:58:43,612 - root - INFO - Added in to batch INSERT
+2018-04-23 15:58:43,613 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 132581, 'PmrId': '62048,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Kumi Kasei'}
+2018-04-23 15:58:43,613 - root - INFO - Added in to batch INSERT
+2018-04-23 15:58:43,704 - unitTest - INFO - Extracting company name from messages
+2018-04-23 15:58:43,780 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 140338, 'PmrId': '20963,665,706', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'S.I.G Grand Camp-PMR'}
+2018-04-23 15:58:43,780 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:41,590 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 16:00:42,122 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 16:00:43,521 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:00:44,057 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 112960, 'PmrId': '20963,669,706', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'S.I.G Grand Camp'}
+2018-04-23 16:00:44,057 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:44,155 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:00:44,232 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 196594, 'PmrId': '62140,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Intage'}
+2018-04-23 16:00:44,232 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:44,307 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:00:44,393 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 106615, 'PmrId': '22970,000,778', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'ACidchem BHD'}
+2018-04-23 16:00:44,394 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:44,448 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:00:44,522 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 180999, 'PmrId': '88580,000,834', 'time': 10, 'createdBy': 'Ajay', 'companyName': '-J J'}
+2018-04-23 16:00:44,522 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:44,570 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:00:44,697 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 166916, 'PmrId': '76289,632,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Sanai'}
+2018-04-23 16:00:44,698 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:44,699 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 154817, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon'}
+2018-04-23 16:00:44,700 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:44,701 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 103149, 'PmrId': '64414,672,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 16:00:44,701 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:44,702 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 147427, 'PmrId': '62057,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 16:00:44,703 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:44,704 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 132717, 'PmrId': '62047,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon Kayaku'}
+2018-04-23 16:00:44,704 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:44,705 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 122681, 'PmrId': '62052,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Noevir'}
+2018-04-23 16:00:44,705 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:44,706 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 148783, 'PmrId': '62048,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Kumi Kasei'}
+2018-04-23 16:00:44,706 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:44,706 - unitTest - ERROR - Cannot Extract PMR ID
+None
+2018-04-23 16:00:44,707 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:00:45,365 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 104657, 'PmrId': '76289,632,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': ''}
+2018-04-23 16:00:45,365 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:45,366 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 138237, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': ''}
+2018-04-23 16:00:45,366 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:45,367 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 178101, 'PmrId': '62053,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': ''}
+2018-04-23 16:00:45,367 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:45,497 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:00:45,589 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 134357, 'PmrId': '33217,999,618', 'time': 10, 'createdBy': 'Ajay', 'companyName': ''}
+2018-04-23 16:00:45,590 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:45,591 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 135536, 'PmrId': '90944,060,618', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Pharma'}
+2018-04-23 16:00:45,591 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:45,592 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 170230, 'PmrId': '41087,082,000', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'IBM CIO'}
+2018-04-23 16:00:45,592 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:45,664 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:00:45,738 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 177933, 'PmrId': '22005,001,806', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Moderne Byggfornyelse'}
+2018-04-23 16:00:45,739 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:45,741 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 144368, 'PmrId': '22006,001,806', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Inforte A/S'}
+2018-04-23 16:00:45,742 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:45,825 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:00:45,878 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 154223, 'PmrId': '22009,001,806', 'time': 10, 'createdBy': 'Ajay', 'companyName': ''}
+2018-04-23 16:00:45,879 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:45,932 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:00:46,011 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 125004, 'PmrId': '66594,661,706', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'GESTIMAT Dehon'}
+2018-04-23 16:00:46,012 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:46,013 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 126448, 'PmrId': '62742,661,706', 'time': 10, 'createdBy': 'Ajay', 'companyName': ''}
+2018-04-23 16:00:46,014 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:46,015 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 118884, 'PmrId': '20963,669,706', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'S.I.G Grand Camp-PMR'}
+2018-04-23 16:00:46,015 - root - INFO - Added in to batch INSERT
+2018-04-23 16:00:46,075 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:02:55,558 - cassandra.cluster - WARNING - Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['35.200.242.129'], lbp = None)
+2018-04-23 16:02:56,183 - cassandra.policies - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '35.200.242.129'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2018-04-23 16:02:57,742 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:02:58,276 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 146512, 'PmrId': '20963,669,706', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'S.I.G Grand Camp'}
+2018-04-23 16:02:58,276 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:58,370 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:02:58,463 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 141009, 'PmrId': '62140,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Intage'}
+2018-04-23 16:02:58,463 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:58,538 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:02:58,635 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 143435, 'PmrId': '22970,000,778', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'ACidchem BHD'}
+2018-04-23 16:02:58,635 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:58,764 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:02:58,857 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 192602, 'PmrId': '88580,000,834', 'time': 10, 'createdBy': 'Ajay', 'companyName': '-J J'}
+2018-04-23 16:02:58,866 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:58,933 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:02:59,020 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 127681, 'PmrId': '76289,632,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Sanai'}
+2018-04-23 16:02:59,023 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,024 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 197762, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon'}
+2018-04-23 16:02:59,024 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,025 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 197591, 'PmrId': '64414,672,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'TOYOBO INFORMATION'}
+2018-04-23 16:02:59,025 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,026 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 150893, 'PmrId': '62057,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'SOSHIN ELECTRIC'}
+2018-04-23 16:02:59,026 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,027 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 149579, 'PmrId': '62047,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Nippon Kayaku'}
+2018-04-23 16:02:59,027 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,028 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 171739, 'PmrId': '62052,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Noevir'}
+2018-04-23 16:02:59,028 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,028 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 198994, 'PmrId': '62048,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Kumi Kasei'}
+2018-04-23 16:02:59,029 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,029 - unitTest - ERROR - Cannot Extract PMR ID
+None
+2018-04-23 16:02:59,029 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:02:59,112 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 192288, 'PmrId': '76289,632,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': ''}
+2018-04-23 16:02:59,112 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,113 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 121713, 'PmrId': '62062,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': ''}
+2018-04-23 16:02:59,113 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,114 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 179095, 'PmrId': '62053,999,760', 'time': 10, 'createdBy': 'Ajay', 'companyName': ''}
+2018-04-23 16:02:59,115 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,181 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:02:59,294 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 116385, 'PmrId': '33217,999,618', 'time': 10, 'createdBy': 'Ajay', 'companyName': ''}
+2018-04-23 16:02:59,294 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,295 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 137635, 'PmrId': '90944,060,618', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Pharma'}
+2018-04-23 16:02:59,296 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,298 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 113669, 'PmrId': '41087,082,000', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'IBM CIO'}
+2018-04-23 16:02:59,298 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,505 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:02:59,590 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 149109, 'PmrId': '22005,001,806', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Moderne Byggfornyelse'}
+2018-04-23 16:02:59,590 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,591 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 152508, 'PmrId': '22006,001,806', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'Inforte A/S'}
+2018-04-23 16:02:59,591 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,697 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:02:59,790 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 100844, 'PmrId': '22009,001,806', 'time': 10, 'createdBy': 'Ajay', 'companyName': ''}
+2018-04-23 16:02:59,790 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,868 - unitTest - INFO - Extracting company name from messages
+2018-04-23 16:02:59,981 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 154716, 'PmrId': '66594,661,706', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'GESTIMAT Dehon'}
+2018-04-23 16:02:59,981 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,982 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 170965, 'PmrId': '62742,661,706', 'time': 10, 'createdBy': 'Ajay', 'companyName': ''}
+2018-04-23 16:02:59,983 - root - INFO - Added in to batch INSERT
+2018-04-23 16:02:59,985 - unitTest - INFO - Company Name and Pmr Id {'incidentId': 140161, 'PmrId': '20963,669,706', 'time': 10, 'createdBy': 'Ajay', 'companyName': 'S.I.G Grand Camp-PMR'}
+2018-04-23 16:02:59,986 - root - INFO - Added in to batch INSERT
+2018-04-23 16:03:00,071 - unitTest - INFO - Extracting company name from messages
