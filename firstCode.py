@@ -1,6 +1,9 @@
 import nltk,random
 import logging.config
 from nltk.corpus import stopwords
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
 from nltk.tokenize import word_tokenize
 import yaml,re,traceback
 from cassandra.cluster import Cluster
