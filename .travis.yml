@@ -4,6 +4,7 @@ python:
   
 install:
   - pip install nltk
-  - pip install yaml
+  - pip install pyyaml
+  - pip install cassandra-driver
   
 script: python test.py
